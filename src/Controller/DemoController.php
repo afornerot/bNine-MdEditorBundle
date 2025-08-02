@@ -1,6 +1,6 @@
 <?php
 
-namespace Bnine\MdEditorsBundle\Controller;
+namespace Bnine\MdEditorBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
