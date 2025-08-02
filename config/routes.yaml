@@ -1,0 +1,3 @@
+bninemdeditorbundle:
+    resource: ../src/Controller/
+    type: attribute
