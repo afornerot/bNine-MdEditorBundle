@@ -1,16 +1,14 @@
 {
-    "name": "bnine/filesbundle",
+    "name": "bnine/mdeditorbundle",
     "description": "Symfony bundle for entity-based file browser and management.",
     "type": "symfony-bundle",
     "license": "MIT",
     "keywords": [
         "symfony",
         "bundle",
-        "files",
-        "file-browser",
-        "entity",
-        "upload",
-        "directory"
+        "markdown",
+        "editor",
+        "entity"
     ],
     "authors": [
         {
@@ -20,7 +18,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Bnine\\FilesBundle\\": "src/"
+            "Bnine\\MdEditorBundle\\": "src/"
         }
     },
     "require": {
