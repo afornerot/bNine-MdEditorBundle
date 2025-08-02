@@ -5,7 +5,7 @@ release:
 	latest_tag=$$(git tag --list 'v*.*.*' --sort=-v:refname | head -n1); \
 	echo "Dernier tag: $$latest_tag"; \
 	if [ -z "$$latest_tag" ]; then \
-		new_tag="v0.1.0"; \
+		new_tag="v1.1.1"; \
 	else \
 		version=$$(echo $$latest_tag | sed 's/^v//'); \
 		IFS='.' read -r major minor patch <<< "$$version"; \
