@@ -5,7 +5,7 @@ services:
         autoconfigure: true
         public: true
 
-    Bnine\FilesBundle\:
+    Bnine\MdEditorBundle\:
         resource: "../src/*"
         exclude:
         - "../src/DependencyInjection/"
