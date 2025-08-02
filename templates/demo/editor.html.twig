@@ -23,7 +23,9 @@
                 {{ form_end(form) }}      
             </div>
             <div class="col col-md-6">
-                {{ dto.markdown|markdown_to_html }}
+                {% if dto.markdown %}
+                    {{ dto.markdown|markdown_to_html }}
+                {% endif %}
             </div>
         </div>
     </div>
