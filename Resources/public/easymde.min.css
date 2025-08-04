@@ -907,3 +907,11 @@ blockquote {
     border-left: 3px solid #cdcdcd;
     padding-left: 10px;
 }
+
+.editor-toolbar {
+    background-color: #f8f9fa;
+}
+
+.editor-preview-side {
+    color: black;
+}
