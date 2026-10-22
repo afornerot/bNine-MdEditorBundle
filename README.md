@@ -37,7 +37,9 @@ Make sure Symfony copies the bundle's public assets to public/bundles/bninemdedi
 In your base Twig layout (e.g. base.html.twig), add:
 
 ```twig
-<script src="{{ asset('bundles/bninemdeditor/bninemdeditor.js') }}"></script>
+<script src="{{ asset('bundles/bninemdeditor/bninemdeditor.js') }}"
+        data-css="{{ asset('bundles/bninemdeditor/easymde.min.css') }}"
+        data-js="{{ asset('bundles/bninemdeditor/easymde.min.js') }}"></script>
 ```
 
 ### Use the MarkdownType in a Form
