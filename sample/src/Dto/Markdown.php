@@ -1,6 +1,6 @@
 <?php
 
-namespace Bnine\MdEditorBundle\Dto;
+namespace App\Dto;
 
 class Markdown
 {

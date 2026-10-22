@@ -1,3 +1,2 @@
-bninemdeditorbundle:
-    resource: ../src/Controller/
-    type: attribute
+# Le bundle n'expose plus de route : la démo est dans sample/.
+# Ce fichier reste présent pour ne pas casser les imports existants.

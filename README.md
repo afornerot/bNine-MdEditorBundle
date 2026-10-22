@@ -9,7 +9,7 @@ The bundle packages the required JS/CSS assets and provides a simple configurati
 
 - Simple integration of EasyMDE Markdown editor via a custom `FormType`.
 - Bundled JS/CSS assets, no external CDN dependency required.
-- Ready-to-use form integration and demo controller.
+- Ready-to-use form integration; un exemple complet est fourni dans `sample/`.
 - Symfony 7 compatible.
 - Assets auto-installed via `assets:install`.
 
@@ -77,7 +77,9 @@ class DtoType extends AbstractType
 ## 📦 Requirements
 
 - PHP ^8.1
+- PHP ^8.1
 - Symfony ^7.1
+- `league/commonmark` et `twig/markdown-extra` (fournis par le bundle)
 
 
 ## 📜 License

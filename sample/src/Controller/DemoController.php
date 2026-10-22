@@ -1,9 +1,9 @@
 <?php
 
-namespace Bnine\MdEditorBundle\Controller;
+namespace App\Controller;
 
-use Bnine\MdEditorBundle\Dto\Markdown;
-use Bnine\MdEditorBundle\Form\DtoType;
+use App\Dto\Markdown;
+use App\Form\DtoType;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -19,7 +19,7 @@ class DemoController extends AbstractController
 
         $form->handleRequest($request);
 
-        return $this->render('@BnineMdEditor/demo/editor.html.twig', [
+        return $this->render('demo/editor.html.twig', [
             'form' => $form->createView(),
             'dto' => $dto,
         ]);

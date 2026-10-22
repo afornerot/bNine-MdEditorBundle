@@ -1,8 +1,8 @@
 <?php
 
-namespace Bnine\MdEditorBundle\Form;
+namespace App\Form;
 
-use Bnine\MdEditorBundle\Dto\Markdown;
+use App\Dto\Markdown;
 use Bnine\MdEditorBundle\Form\Type\MarkdownType;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\Extension\Core\Type\SubmitType;
