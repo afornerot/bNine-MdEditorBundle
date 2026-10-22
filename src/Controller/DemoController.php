@@ -11,19 +11,13 @@ use Symfony\Component\Routing\Attribute\Route;
 
 class DemoController extends AbstractController
 {
-    #[Route('/demo', name: 'bninefiles_demo')]
+    #[Route('/demo', name: 'bninemdeditor_demo')]
     public function markdownDemo(Request $request): Response
     {
         $dto = new Markdown();
         $form = $this->createForm(DtoType::class, $dto);
 
         $form->handleRequest($request);
-        $content = '';
-        if ($form->isSubmitted() && $form->isValid()) {
-            dump('bon');
-            $content = $dto->getMarkdown();
-        }
-        dump($content);
 
         return $this->render('@BnineMdEditor/demo/editor.html.twig', [
             'form' => $form->createView(),

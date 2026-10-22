@@ -1,14 +1,7 @@
-# config/services.yaml du bundle
 services:
     _defaults:
         autowire: true
         autoconfigure: true
-        public: true
 
     Bnine\MdEditorBundle\:
-        resource: "../src/*"
-        exclude:
-        - "../src/DependencyInjection/"
-        - "../src/Entity/"
-        - "../src/Kernel.php"
-
+        resource: '../src/*'

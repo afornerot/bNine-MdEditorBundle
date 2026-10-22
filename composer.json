@@ -1,6 +1,6 @@
 {
     "name": "bnine/mdeditorbundle",
-    "description": "Symfony bundle for entity-based file browser and management.",
+    "description": "Symfony bundle providing an EasyMDE Markdown form type and its assets",
     "type": "symfony-bundle",
     "license": "MIT",
     "keywords": [
@@ -8,7 +8,8 @@
         "bundle",
         "markdown",
         "editor",
-        "entity"
+        "easymde",
+        "form"
     ],
     "authors": [
         {
